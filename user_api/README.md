@@ -11,7 +11,8 @@ This is a simple REST API built with **Flask**, **Flask-RESTful**, and **SQLAlch
 It allows you to:
 
 - GET `/api/users/` — retrieve all users  
-- POST `/api/users/` — add a new user (JSON body required)  
+- POST `/api/users/` — add a new user (JSON body required)
+  You need to use extension: ThunderClient
 
 There is also a simple home route at `/`.
 
@@ -23,5 +24,4 @@ There is also a simple home route at `/`.
 
 ```bash
 git clone https://github.com/nrelvx/user_api.git
-cd my_flask_api
-
+cd user_api
