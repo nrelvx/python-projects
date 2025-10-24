@@ -12,7 +12,7 @@ It allows you to:
 
 - GET `/api/users/` — retrieve all users  
 - POST `/api/users/` — add a new user (JSON body required)
-You need to use extension: ThunderClient
+- You need to use extension: ThunderClient
 
 There is also a simple home route at `/`.
 
