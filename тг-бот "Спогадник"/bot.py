@@ -3,7 +3,7 @@ from telebot import types
 import sqlite3
 import telebot
 
-bot = telebot.TeleBot("8253513379:AAFj50ZreXGLNhrucnyLKvWJ-doY5O2-150")
+bot = telebot.TeleBot("")
 
 
 def init_db():
@@ -242,3 +242,4 @@ def today_memories(message):
 
 
 bot.polling(none_stop=True)
+
